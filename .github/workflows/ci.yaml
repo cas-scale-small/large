@@ -9,8 +9,8 @@ on:
     - cron: "0 */12 * * *" 
 
 jobs:
-  build:
+  say-hello:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout the repository
-        uses: echo hello
+      - name: Print Hello
+        run: echo "Hello"
